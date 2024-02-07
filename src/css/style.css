@@ -1,11 +1,80 @@
-@media screen and (width >= 320px) {
+@media screen and (width >=320px) {
 	#some-id {
 		color: red;
 	}
 }
 
-@media screen and (width >= 500px) {
+@media screen and (width >=500px) {
 	#some-id {
 		color: red;
 	}
+}
+
+body {
+	max-width: 320px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+h1 {
+	background-color: lightgrey;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-size: 35px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 25px;
+	margin: 0px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+h3 {
+	font-size: 15px;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+
+img {
+	max-width: 90%;
+}
+
+p {
+	font-size: 15px;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+
+ol {
+	font-size: 15px;
+	font-weight: bold;
+	list-style-position: inside;
+	padding-left: 0px;
+	display: inline;
+}
+
+ul {
+	font-size: 15px;
+	font-weight: bold;
+	list-style-position: inside;
+	padding-left: 0px;
+	display: inline;
+}
+
+li {
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+.content {
+	margin-left: 20px;
+}
+
+.olcontent {
+	font-weight: normal;
+	margin: 0px;
+	margin-bottom: 5px;
 }
